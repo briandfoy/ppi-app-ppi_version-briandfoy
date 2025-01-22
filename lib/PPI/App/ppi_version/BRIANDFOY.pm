@@ -1,5 +1,5 @@
 package PPI::App::ppi_version::BDFOY; # old name, here for legacy
-our $VERSION = '1.004';
+our $VERSION = '1.005';
 
 package PPI::App::ppi_version::BRIANDFOY;
 use parent qw(PPI::App::ppi_version);
@@ -45,7 +45,7 @@ use File::Find::Rule       ();
 use File::Find::Rule::Perl ();
 use Term::ANSIColor;
 
-our $VERSION = '1.004';
+our $VERSION = '1.005';
 
 #####################################################################
 # Main Methods
