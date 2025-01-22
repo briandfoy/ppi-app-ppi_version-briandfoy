@@ -4,7 +4,7 @@ use warnings;
 
 =encoding utf8
 
-=head1 The build file for PPI::App::ppi_version::BDFOY
+=head1 The build file for PPI::App::ppi_version::BRIANDFOY
 
 This build file is a modulino; it works as both a build script and
 a module.
