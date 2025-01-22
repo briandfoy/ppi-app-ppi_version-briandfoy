@@ -1,11 +1,12 @@
-package PPI::App::ppi_version::BDFOY;
+package PPI::App::ppi_version::BDFOY; # old name, here for legacy
+package PPI::App::ppi_version::BRIANDFOY;
 use parent qw(PPI::App::ppi_version);
 
 =encoding utf8
 
 =head1 NAME
 
-PPI::App::ppi_version::BDFOY - brian d foy's rip off of Adam's ppi_version
+PPI::App::ppi_version::BRIANDFOY - brian d foy's rip off of Adam's ppi_version
 
 =head1 SYNOPSIS
 
@@ -300,7 +301,7 @@ sub error {
 
 This source is part of a Github project:
 
-	https://github.com/briandfoy/ppi-app-ppi_version-bdfoy
+	https://github.com/briandfoy/ppi-app-ppi_version-briandfoy
 
 =head1 AUTHOR
 
@@ -311,7 +312,7 @@ brian d foy, C<< <briandfoy@pobox.com> >>
 
 =head1 COPYRIGHT
 
-Copyright © 2008-2025, brian d foy briandfoy@pobox.com>. All rights reserved.
+Copyright © 2008-2025, brian d foy C<briandfoy@pobox.com>. All rights reserved.
 
 You may redistribute this under the same terms as the Artistic License 2.0.
 
