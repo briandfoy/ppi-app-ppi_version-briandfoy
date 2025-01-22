@@ -1,5 +1,8 @@
 Revision history for Perl module PPI::App::ppi_version::BDFOY
 
+1.004 2025-01-22T16:43:12Z
+	* need to bump the version past that for the old ::BDFOY version
+
 1.003 2025-01-22T16:39:52Z
 	* move PPI::App::ppi_version::BDFOY to PPI::App::ppi_version::BRIANDFOY.
 	The legacy BDFOY namespace is still in the package, so it should still
