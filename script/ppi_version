@@ -2,7 +2,7 @@
 
 use 5.008;
 use strict;
-use PPI::App::ppi_version::BDFOY;
+use PPI::App::ppi_version::BRIANDFOY;
 
 
 use vars qw{$VERSION};
@@ -15,7 +15,7 @@ BEGIN {
 print "brian d foy's ppi_version $VERSION\n";
 
 exit(
-        PPI::App::ppi_version::BDFOY->main(@ARGV)
+        PPI::App::ppi_version::BRIANDFOY->main(@ARGV)
 );
 
 =encoding utf8
@@ -50,7 +50,7 @@ try to be smart about this like B<perlreversion> from L<Perl::VERSION>.
 
 This source is part of a Github project:
 
-	https://github.com/briandfoy/ppi-app-ppi_version-bdfoy
+	https://github.com/briandfoy/ppi-app-ppi_version-briandfoy
 
 =head1 AUTHOR
 
