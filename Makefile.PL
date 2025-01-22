@@ -1,4 +1,4 @@
-package PPI::App::ppi_version::BDFOY;
+package PPI::App::ppi_version::BRIANDFOY;
 use strict;
 use warnings;
 

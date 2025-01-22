@@ -2,7 +2,7 @@ use Test::More;
 
 use File::Spec::Functions qw(catfile);
 
-my $class  = 'PPI::App::ppi_version::BDFOY';
+my $class  = 'PPI::App::ppi_version::BRIANDFOY';
 my $method = 'get_version';
 
 use_ok( $class );
@@ -13,10 +13,10 @@ subtest 'our' => sub {
 	my @rc = $class->$method( $file );
 	ok( $rc[0], "$method returns true for $file" );
 	};
-	
+
 subtest 'vars' => sub {
 	my $file = catfile( qw(corpus vars.pm) );
-	my @rc = $class->$method( $file );	
+	my @rc = $class->$method( $file );
 	ok( $rc[0], "$method returns true for $file" );
 	};
 
