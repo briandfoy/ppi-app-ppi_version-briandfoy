@@ -1,7 +1,7 @@
 package PPI::App::ppi_version::BDFOY;
 use parent qw(PPI::App::ppi_version::BRIANDFOY);
 
-our $VERSION = '1.005';
+our $VERSION = '1.006';
 
 1;
 
