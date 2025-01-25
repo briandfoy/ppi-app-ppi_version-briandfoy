@@ -79,14 +79,6 @@ my %WriteMakefile = (
 
 	'META_MERGE' => {
 		'meta-spec' => { version => 2 },
-		provides => {
-			'PPI::App::ppi_version::BRIANDFOY' => {
-				file => 'lib/PPI/App/ppi_version/BRIANDFOY.pm',
-				},
-			'PPI::App::ppi_version::BDFOY' => {
-				file => 'lib/PPI/App/ppi_version/BRIANDFOY.pm',
-				},
-			},
 		resources => {
 			repository => {
 				type => 'git',
