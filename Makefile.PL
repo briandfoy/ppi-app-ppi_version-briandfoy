@@ -106,6 +106,9 @@ my %WriteMakefile = (
 				web    => "$github/issues",
 				},
 			homepage => $github,
+			no_index => {
+				directory => [qw(corpus)],
+				},
 			},
 		},
 
