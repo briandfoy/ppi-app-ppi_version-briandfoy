@@ -42,7 +42,7 @@ use File::Find::Rule       ();
 use File::Find::Rule::Perl ();
 use Term::ANSIColor;
 
-our $VERSION = '1.008';
+our $VERSION = '1.009';
 
 #####################################################################
 # Main Methods
