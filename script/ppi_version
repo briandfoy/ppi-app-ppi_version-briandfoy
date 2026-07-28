@@ -44,7 +44,7 @@ subdirectories and extracts Perl versions.
 
 To change versions, give the existing version that you want to target
 and the version you want to change that too. B<ppi_version> does not
-try to be smart about this like B<perlreversion> from L<Perl::VERSION>.
+try to be smart about this like B<perlreversion> from L<Perl::Version>.
 
 =head1 SOURCE AVAILABILITY
 
