@@ -1,5 +1,8 @@
 Revision history for Perl module PPI::App::ppi_version::BDFOY
 
+1.009 2026-07-28T07:13:54Z
+	* fix for PAUSE indexing and ignoring the corpus/ dir
+
 1.008 2026-07-28T05:13:02Z
 	* fix a reference to Perl::Version (#10)
 
